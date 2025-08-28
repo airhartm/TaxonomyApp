@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+Icon?
+._*
+
+# Xcode / user data
+*.xcuserstate
+*.moved-aside
+*.xcscmblueprint
+**/*.xcuserdatad/
+TaxonomyApp/TaxonomyApp.xcodeproj/project.xcworkspace/xcuserdata/
+TaxonomyApp/TaxonomyApp.xcodeproj/xcuserdata/
+
+# Derived data / build
+DerivedData/
+build/
+*.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/indices/
+.swiftpm/cache/
+
+# SwiftPM
+/.build/
+Package.resolved
+
+# Logs
+*.log
