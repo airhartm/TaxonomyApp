@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "separator": "/",
+  "facets": ["Client", "DocType", "Stage", "Year"],
+  "values": {
+    "Client": ["Client-A", "Client-B"],
+    "DocType": ["Invoice", "Report"],
+    "Stage": ["Draft", "Final"],
+    "Year": ["2024", "2025"]
+  },
+  "aliases": {
+    "Inv": "DocType/Invoice",
+    "In-Review": "Stage/Draft"
+  },
+  "rules": {
+    "requires": [
+      { "if": "DocType/Invoice", "then": ["Client/*", "Year/*"] }
+    ],
+    "mutex": [
+      ["Stage/Draft", "Stage/Final"]
+    ]
+  },
+  "bundles": {
+    "Invoice-2025": ["DocType/Invoice", "Year/2025"]
+  }
+}

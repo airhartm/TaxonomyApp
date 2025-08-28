@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0023C0A2E602E9D00D4FEE7 /* BatchEngine in Frameworks */ = {isa = PBXBuildFile; productRef = D0023C092E602E9D00D4FEE7 /* BatchEngine */; };
+		D0023C0C2E602E9D00D4FEE7 /* FinderTagIO in Frameworks */ = {isa = PBXBuildFile; productRef = D0023C0B2E602E9D00D4FEE7 /* FinderTagIO */; };
+		D0023C0E2E602E9D00D4FEE7 /* GovernanceCore in Frameworks */ = {isa = PBXBuildFile; productRef = D0023C0D2E602E9D00D4FEE7 /* GovernanceCore */; };
+		D0023C102E602E9D00D4FEE7 /* ReportKit in Frameworks */ = {isa = PBXBuildFile; productRef = D0023C0F2E602E9D00D4FEE7 /* ReportKit */; };
+		D02FC18F2E5FCA2600286300 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02FC18C2E5FCA2600286300 /* ContentView.swift */; };
+		D02FC1902E5FCA2600286300 /* TaxonomyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02FC18D2E5FCA2600286300 /* TaxonomyAppApp.swift */; };
+		D04B0E2E2E5FB5A0000FCC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04B0E282E5FB5A0000FCC34 /* Assets.xcassets */; };
+		D04B0E382E5FB6E3000FCC34 /* BatchEngine in Frameworks */ = {isa = PBXBuildFile; productRef = D04B0E372E5FB6E3000FCC34 /* BatchEngine */; };
+		D04B0E3A2E5FB6E3000FCC34 /* FinderTagIO in Frameworks */ = {isa = PBXBuildFile; productRef = D04B0E392E5FB6E3000FCC34 /* FinderTagIO */; };
+		D04B0E3C2E5FB6E3000FCC34 /* GovernanceCore in Frameworks */ = {isa = PBXBuildFile; productRef = D04B0E3B2E5FB6E3000FCC34 /* GovernanceCore */; };
+		D04B0E3E2E5FB6E3000FCC34 /* ReportKit in Frameworks */ = {isa = PBXBuildFile; productRef = D04B0E3D2E5FB6E3000FCC34 /* ReportKit */; };
+		D080E6C42E5FDB7200EB11B8 /* BatchEngine in Frameworks */ = {isa = PBXBuildFile; productRef = D080E6C32E5FDB7200EB11B8 /* BatchEngine */; };
+		D080E6C62E5FDB7200EB11B8 /* FinderTagIO in Frameworks */ = {isa = PBXBuildFile; productRef = D080E6C52E5FDB7200EB11B8 /* FinderTagIO */; };
+		D080E6C82E5FDB7200EB11B8 /* GovernanceCore in Frameworks */ = {isa = PBXBuildFile; productRef = D080E6C72E5FDB7200EB11B8 /* GovernanceCore */; };
+		D080E6CA2E5FDB7200EB11B8 /* ReportKit in Frameworks */ = {isa = PBXBuildFile; productRef = D080E6C92E5FDB7200EB11B8 /* ReportKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D04B0E032E5FB4F9000FCC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04B0DEC2E5FB4F8000FCC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04B0DF32E5FB4F8000FCC34;
+			remoteInfo = TaxonomyApp;
+		};
+		D04B0E0D2E5FB4F9000FCC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04B0DEC2E5FB4F8000FCC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04B0DF32E5FB4F8000FCC34;
+			remoteInfo = TaxonomyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D02FC1702E5FB8BD00286300 /* TaxonomyApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaxonomyApp.entitlements; sourceTree = "<group>"; };
+		D02FC18C2E5FCA2600286300 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D02FC18D2E5FCA2600286300 /* TaxonomyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonomyAppApp.swift; sourceTree = "<group>"; };
+		D04B0DF42E5FB4F8000FCC34 /* TaxonomyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxonomyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B0E022E5FB4F9000FCC34 /* TaxonomyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxonomyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B0E0C2E5FB4F9000FCC34 /* TaxonomyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxonomyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B0E282E5FB5A0000FCC34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D02FC1AF2E5FCA6D00286300 /* Exceptions for "Onboarding" folder in "TaxonomyApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				taxonomy.json,
+			);
+			target = D04B0DF32E5FB4F8000FCC34 /* TaxonomyApp */;
+		};
+		D02FC1B02E5FCA6D00286300 /* Exceptions for "Views" folder in "TaxonomyApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ApplyRemoveView.swift,
+				TagInspectorView.swift,
+				TaxonomyEditorView.swift,
+			);
+			target = D04B0DF32E5FB4F8000FCC34 /* TaxonomyApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D02FC1A12E5FCA6D00286300 /* Onboarding */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D02FC1AF2E5FCA6D00286300 /* Exceptions for "Onboarding" folder in "TaxonomyApp" target */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D02FC1A42E5FCA6D00286300 /* Stores */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		D02FC1A82E5FCA6D00286300 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D02FC1B02E5FCA6D00286300 /* Exceptions for "Views" folder in "TaxonomyApp" target */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D04B0E052E5FB4F9000FCC34 /* TaxonomyAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaxonomyAppTests;
+			sourceTree = "<group>";
+		};
+		D04B0E0F2E5FB4F9000FCC34 /* TaxonomyAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaxonomyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04B0DF12E5FB4F8000FCC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B0E3C2E5FB6E3000FCC34 /* GovernanceCore in Frameworks */,
+				D080E6C82E5FDB7200EB11B8 /* GovernanceCore in Frameworks */,
+				D04B0E3E2E5FB6E3000FCC34 /* ReportKit in Frameworks */,
+				D080E6C42E5FDB7200EB11B8 /* BatchEngine in Frameworks */,
+				D080E6C62E5FDB7200EB11B8 /* FinderTagIO in Frameworks */,
+				D0023C102E602E9D00D4FEE7 /* ReportKit in Frameworks */,
+				D080E6CA2E5FDB7200EB11B8 /* ReportKit in Frameworks */,
+				D0023C0A2E602E9D00D4FEE7 /* BatchEngine in Frameworks */,
+				D0023C0C2E602E9D00D4FEE7 /* FinderTagIO in Frameworks */,
+				D04B0E382E5FB6E3000FCC34 /* BatchEngine in Frameworks */,
+				D04B0E3A2E5FB6E3000FCC34 /* FinderTagIO in Frameworks */,
+				D0023C0E2E602E9D00D4FEE7 /* GovernanceCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B0DFF2E5FB4F9000FCC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B0E092E5FB4F9000FCC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02FC18B2E5FBCC300286300 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D02FC1A12E5FCA6D00286300 /* Onboarding */,
+				D02FC1A42E5FCA6D00286300 /* Stores */,
+				D02FC1A82E5FCA6D00286300 /* Views */,
+				D02FC18C2E5FCA2600286300 /* ContentView.swift */,
+				D02FC18D2E5FCA2600286300 /* TaxonomyAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D04B0DEB2E5FB4F8000FCC34 = {
+			isa = PBXGroup;
+			children = (
+				D04B0E2C2E5FB5A0000FCC34 /* TaxonomyApp */,
+				D04B0E052E5FB4F9000FCC34 /* TaxonomyAppTests */,
+				D04B0E0F2E5FB4F9000FCC34 /* TaxonomyAppUITests */,
+				D04B0DF52E5FB4F8000FCC34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04B0DF52E5FB4F8000FCC34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04B0DF42E5FB4F8000FCC34 /* TaxonomyApp.app */,
+				D04B0E022E5FB4F9000FCC34 /* TaxonomyAppTests.xctest */,
+				D04B0E0C2E5FB4F9000FCC34 /* TaxonomyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04B0E2C2E5FB5A0000FCC34 /* TaxonomyApp */ = {
+			isa = PBXGroup;
+			children = (
+				D04B0E282E5FB5A0000FCC34 /* Assets.xcassets */,
+				D02FC1702E5FB8BD00286300 /* TaxonomyApp.entitlements */,
+				D02FC18B2E5FBCC300286300 /* App */,
+			);
+			path = TaxonomyApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04B0DF32E5FB4F8000FCC34 /* TaxonomyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04B0E162E5FB4F9000FCC34 /* Build configuration list for PBXNativeTarget "TaxonomyApp" */;
+			buildPhases = (
+				D04B0DF02E5FB4F8000FCC34 /* Sources */,
+				D04B0DF12E5FB4F8000FCC34 /* Frameworks */,
+				D04B0DF22E5FB4F8000FCC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D02FC1A42E5FCA6D00286300 /* Stores */,
+			);
+			name = TaxonomyApp;
+			packageProductDependencies = (
+				D04B0E372E5FB6E3000FCC34 /* BatchEngine */,
+				D04B0E392E5FB6E3000FCC34 /* FinderTagIO */,
+				D04B0E3B2E5FB6E3000FCC34 /* GovernanceCore */,
+				D04B0E3D2E5FB6E3000FCC34 /* ReportKit */,
+				D080E6C32E5FDB7200EB11B8 /* BatchEngine */,
+				D080E6C52E5FDB7200EB11B8 /* FinderTagIO */,
+				D080E6C72E5FDB7200EB11B8 /* GovernanceCore */,
+				D080E6C92E5FDB7200EB11B8 /* ReportKit */,
+				D0023C092E602E9D00D4FEE7 /* BatchEngine */,
+				D0023C0B2E602E9D00D4FEE7 /* FinderTagIO */,
+				D0023C0D2E602E9D00D4FEE7 /* GovernanceCore */,
+				D0023C0F2E602E9D00D4FEE7 /* ReportKit */,
+			);
+			productName = TaxonomyApp;
+			productReference = D04B0DF42E5FB4F8000FCC34 /* TaxonomyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D04B0E012E5FB4F9000FCC34 /* TaxonomyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04B0E192E5FB4F9000FCC34 /* Build configuration list for PBXNativeTarget "TaxonomyAppTests" */;
+			buildPhases = (
+				D04B0DFE2E5FB4F9000FCC34 /* Sources */,
+				D04B0DFF2E5FB4F9000FCC34 /* Frameworks */,
+				D04B0E002E5FB4F9000FCC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04B0E042E5FB4F9000FCC34 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D04B0E052E5FB4F9000FCC34 /* TaxonomyAppTests */,
+			);
+			name = TaxonomyAppTests;
+			packageProductDependencies = (
+			);
+			productName = TaxonomyAppTests;
+			productReference = D04B0E022E5FB4F9000FCC34 /* TaxonomyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D04B0E0B2E5FB4F9000FCC34 /* TaxonomyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04B0E1C2E5FB4F9000FCC34 /* Build configuration list for PBXNativeTarget "TaxonomyAppUITests" */;
+			buildPhases = (
+				D04B0E082E5FB4F9000FCC34 /* Sources */,
+				D04B0E092E5FB4F9000FCC34 /* Frameworks */,
+				D04B0E0A2E5FB4F9000FCC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04B0E0E2E5FB4F9000FCC34 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D04B0E0F2E5FB4F9000FCC34 /* TaxonomyAppUITests */,
+			);
+			name = TaxonomyAppUITests;
+			packageProductDependencies = (
+			);
+			productName = TaxonomyAppUITests;
+			productReference = D04B0E0C2E5FB4F9000FCC34 /* TaxonomyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04B0DEC2E5FB4F8000FCC34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					D04B0DF32E5FB4F8000FCC34 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D04B0E012E5FB4F9000FCC34 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D04B0DF32E5FB4F8000FCC34;
+					};
+					D04B0E0B2E5FB4F9000FCC34 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D04B0DF32E5FB4F8000FCC34;
+					};
+				};
+			};
+			buildConfigurationList = D04B0DEF2E5FB4F8000FCC34 /* Build configuration list for PBXProject "TaxonomyApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D04B0DEB2E5FB4F8000FCC34;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D0023C082E602E9D00D4FEE7 /* XCLocalSwiftPackageReference "../TagGovernanceKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D04B0DF52E5FB4F8000FCC34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04B0DF32E5FB4F8000FCC34 /* TaxonomyApp */,
+				D04B0E012E5FB4F9000FCC34 /* TaxonomyAppTests */,
+				D04B0E0B2E5FB4F9000FCC34 /* TaxonomyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D04B0DF22E5FB4F8000FCC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B0E2E2E5FB5A0000FCC34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B0E002E5FB4F9000FCC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B0E0A2E5FB4F9000FCC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D04B0DF02E5FB4F8000FCC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02FC1902E5FCA2600286300 /* TaxonomyAppApp.swift in Sources */,
+				D02FC18F2E5FCA2600286300 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B0DFE2E5FB4F9000FCC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B0E082E5FB4F9000FCC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D04B0E042E5FB4F9000FCC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04B0DF32E5FB4F8000FCC34 /* TaxonomyApp */;
+			targetProxy = D04B0E032E5FB4F9000FCC34 /* PBXContainerItemProxy */;
+		};
+		D04B0E0E2E5FB4F9000FCC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04B0DF32E5FB4F8000FCC34 /* TaxonomyApp */;
+			targetProxy = D04B0E0D2E5FB4F9000FCC34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D04B0E142E5FB4F9000FCC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = J7VBY7LSDL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D04B0E152E5FB4F9000FCC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J7VBY7LSDL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D04B0E172E5FB4F9000FCC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TaxonomyApp/TaxonomyApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7VBY7LSDL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.kgraph.TaxonomyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D04B0E182E5FB4F9000FCC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TaxonomyApp/TaxonomyApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7VBY7LSDL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.kgraph.TaxonomyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D04B0E1A2E5FB4F9000FCC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7VBY7LSDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.kgraph.TaxonomyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxonomyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaxonomyApp";
+			};
+			name = Debug;
+		};
+		D04B0E1B2E5FB4F9000FCC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7VBY7LSDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.kgraph.TaxonomyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxonomyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaxonomyApp";
+			};
+			name = Release;
+		};
+		D04B0E1D2E5FB4F9000FCC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7VBY7LSDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.kgraph.TaxonomyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TaxonomyApp;
+			};
+			name = Debug;
+		};
+		D04B0E1E2E5FB4F9000FCC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7VBY7LSDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.kgraph.TaxonomyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TaxonomyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04B0DEF2E5FB4F8000FCC34 /* Build configuration list for PBXProject "TaxonomyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B0E142E5FB4F9000FCC34 /* Debug */,
+				D04B0E152E5FB4F9000FCC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04B0E162E5FB4F9000FCC34 /* Build configuration list for PBXNativeTarget "TaxonomyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B0E172E5FB4F9000FCC34 /* Debug */,
+				D04B0E182E5FB4F9000FCC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04B0E192E5FB4F9000FCC34 /* Build configuration list for PBXNativeTarget "TaxonomyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B0E1A2E5FB4F9000FCC34 /* Debug */,
+				D04B0E1B2E5FB4F9000FCC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04B0E1C2E5FB4F9000FCC34 /* Build configuration list for PBXNativeTarget "TaxonomyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B0E1D2E5FB4F9000FCC34 /* Debug */,
+				D04B0E1E2E5FB4F9000FCC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D0023C082E602E9D00D4FEE7 /* XCLocalSwiftPackageReference "../TagGovernanceKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../TagGovernanceKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0023C092E602E9D00D4FEE7 /* BatchEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BatchEngine;
+		};
+		D0023C0B2E602E9D00D4FEE7 /* FinderTagIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FinderTagIO;
+		};
+		D0023C0D2E602E9D00D4FEE7 /* GovernanceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GovernanceCore;
+		};
+		D0023C0F2E602E9D00D4FEE7 /* ReportKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReportKit;
+		};
+		D04B0E372E5FB6E3000FCC34 /* BatchEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BatchEngine;
+		};
+		D04B0E392E5FB6E3000FCC34 /* FinderTagIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FinderTagIO;
+		};
+		D04B0E3B2E5FB6E3000FCC34 /* GovernanceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GovernanceCore;
+		};
+		D04B0E3D2E5FB6E3000FCC34 /* ReportKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReportKit;
+		};
+		D080E6C32E5FDB7200EB11B8 /* BatchEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BatchEngine;
+		};
+		D080E6C52E5FDB7200EB11B8 /* FinderTagIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FinderTagIO;
+		};
+		D080E6C72E5FDB7200EB11B8 /* GovernanceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GovernanceCore;
+		};
+		D080E6C92E5FDB7200EB11B8 /* ReportKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReportKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D04B0DEC2E5FB4F8000FCC34 /* Project object */;
+}
